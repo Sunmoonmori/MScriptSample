@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 0.4; top: 30%; align-self: center; width: 620px; height: auto;">
+        <ui:VisualElement style="flex-grow: 0; flex-direction: row; width: 620px; height: 32px;">
+            <ui:Button text="Toggle Connection" name="toggleConnection" style="width: 310px; height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+            <ui:Label text="" name="connectionStatus" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; width: 310px; height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-text-align: middle-center; background-color: rgb(238, 238, 238);"/>
+        </ui:VisualElement>
+        <ui:DropdownField label="Script Instances" name="scriptInstancesDropdown" index="0" choices="" style="background-color: rgb(140, 140, 140); color: rgb(20, 20, 20); font-size: 14px; width: 620px; height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+        <ui:Button text="Call &quot;Enter&quot;" name="callEnterButton" style="width: 620px; height: 32px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;"/>
+        <ui:VisualElement name="" style="flex-grow: 0; flex-direction: row; width: 620px; height: auto; margin-top: 0; margin-right: 0; margin-left: 0; margin-bottom: 0;">
+            <ui:Label text="Message" style="height: 32px; width: 160px; color: rgb(20, 20, 20); background-color: rgb(140, 140, 140); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-text-align: middle-left;"/>
+            <ui:Label text="" name="messageContentLabel" style="height: 32px; width: 460px; background-color: rgb(238, 238, 238); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
