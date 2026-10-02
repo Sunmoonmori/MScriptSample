@@ -10,7 +10,8 @@ the graph script below, run for 1,000,000 cycles, costs about 0.15 seconds (20ns
 
 the workflow of MScript is designed around a **browser editor**-**intermediate server**-**client runtime** structure, and supports editing and debugging in a real runtime environment and in remote environments.
 
-<video src="doc/runtime-example.mp4" controls></video>
+<!-- <video src="doc/runtime-example.mp4" controls></video> -->
+https://github.com/user-attachments/assets/cde3fbb6-dedd-4612-81eb-1eb72c6c3315
 
 ## Getting Started
 
