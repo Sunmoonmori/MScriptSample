@@ -73,6 +73,8 @@ namespace SampleScene.SampleCode.Node
     [ProcedureNode(Name = "WaitSeconds")]
     public class WaitSeconds
     {
+        // note: the finished coroutines are not removed from this list until the script is destroyed.
+        //       a better implementation would be to remove the finished coroutines from this list, but this is a simple example.
         private readonly List<Coroutine> _coroutines = new();
         
         [FlowIn(
